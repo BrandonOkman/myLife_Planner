@@ -78,3 +78,60 @@ textarea {
     margin-bottom: 50%;
 }
 
+table {
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1em;
+}
+
+th {
+    font-weight: 900;
+    background-color: #06aed5;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+td,
+th {
+    vertical-align: top;
+}
+
+td textarea {
+    padding: 2%;
+}
+
+th {
+    text-align: center;
+    color: white;
+}
+
+#credit {
+    text-align: right;
+}
+
+.icon {
+    padding: 2%;
+    cursor: pointer;
+}
+
+#elevenTd,
+#tenTd,
+#nineTd,
+#twelveTd,
+#oneTd,
+#twoTd,
+#threeTd,
+#fourTd,
+#fiveTd {
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    textarea {
+        width: 65vw;
+    }
+}
